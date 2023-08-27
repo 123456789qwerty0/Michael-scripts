@@ -350,3 +350,4 @@ Tab9:AddButton({
         loadstring(Game:HttpGet('https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/Darkhub'))()
   	end    
 })
+OrionLib:Init()
