@@ -1,0 +1,340 @@
+local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shlexware/Orion/main/source")))()
+local Window =
+    OrionLib:MakeWindow(
+    {Name = "Dark hub. Scripts from the dark web", HidePremium = false, SaveConfig = true, ConfigFolder = "192-999-012"}
+)
+
+local Tab =
+    Window:MakeTab(
+    {
+        Name = "Admin",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+
+Tab:AddButton(
+    {
+        Name = "log ip",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/ip"))()
+        end
+    }
+)
+
+Tab:AddButton(
+    {
+        Name = "dont click me",
+        Callback = function()
+            game:GetService("TeleportService"):Teleport(14264597231, game.Players.LocalPlayer)
+        end
+    }
+)
+
+Tab:AddButton(
+    {
+        Name = "show ip",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/KhYXMwvB"))()
+        end
+    }
+)
+
+Tab:AddButton(
+    {
+        Name = "c00lkid 💀😏",
+        Callback = function()
+            loadstring(
+                game:HttpGet(
+                    "https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/c00lkid%20gui%20reborn!.lua"
+                )
+            )()
+        end
+    }
+)
+
+Tab:AddButton(
+    {
+        Name = "infinite yield FE",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+        end
+    }
+)
+Tab:AddButton(
+    {
+        Name = "unnamed esp",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+        end
+    }
+)
+Tab:AddButton(
+    {
+        Name = "topkek",
+        Callback = function()
+           loadstring(game:HttpGet('https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/topkek'))()
+        end
+    }
+)
+Tab:AddButton(
+    {
+        Name = "dex",
+        Callback = function()
+            loadstring(Game:HttpGet('https://pastebin.com/raw/JSErkCQ4'))()
+        end
+    }
+)
+
+local Tab2 =
+    Window:MakeTab(
+    {
+        Name = "FE",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+
+Tab2:AddButton(
+    {
+        Name = "c00lkid 💀😏",
+        Callback = function()
+            loadstring(
+                game:HttpGet(
+                    "https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/c00lkid%20gui%20reborn!.lua"
+                )
+            )()
+        end
+    }
+)
+
+Tab2:AddButton(
+    {
+        Name = "infinite yield FE",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+        end
+    }
+)
+
+Tab2:AddButton(
+    {
+        Name = "BTR",
+        Callback = function()
+            loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+        end
+    }
+)
+
+local Tab3 =
+    Window:MakeTab(
+    {
+        Name = "DOORS",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+
+Tab3:AddButton(
+    {
+        Name = "LOLCAT op",
+        Callback = function()
+            loadstring(
+                game:HttpGet(
+                    "https://gist.githubusercontent.com/lolct/3591cfc7de1c6e1b5a9d810605677827/raw/" .. game.PlaceId
+                )
+            )()
+        end
+    }
+)
+
+Tab3:AddButton(
+    {
+        Name = "blackking old 1.0",
+        Callback = function()
+            loadstring(
+                game:HttpGet(
+                    "https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/blackking%20old%20recover.txt"
+                )
+            )()
+        end
+    }
+)
+
+Tab3:AddButton(
+    {
+        Name = "blackking 2.0",
+        Callback = function()
+            loadstring(
+                game:HttpGet(
+                    "https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/blackking%20doors.lua"
+                )
+            )()
+        end
+    }
+)
+
+local Tab4 =
+    Window:MakeTab(
+    {
+        Name = "DOORS - entity spawner",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+
+Tab4:AddButton(
+    {
+        Name = "spawn lsplash",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/2HdMkBrW"))()
+        end
+    }
+)
+
+Tab4:AddButton(
+    {
+        Name = "poopdoors",
+        Callback = function()
+            loadstring(
+                game:HttpGet(
+                    ("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),
+                    true
+                )
+            )()
+        end
+    }
+)
+
+Tab4:AddButton(
+    {
+        Name = "SHADOW SCRIPTS",
+        Callback = function()
+            loadstring(
+                game:HttpGet(
+                    "https://raw.githubusercontent.com/ShadowScripts4Roblox/PROTECTEDLUA/main/Scripts/DOORS/Loader52.lua"
+                )
+            )()
+        end
+    }
+)
+
+Tab4:AddButton(
+    {
+        Name = "FURK ULTRA - DOORS",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+        end
+    }
+)
+
+Tab4:AddColorpicker(
+    {
+        Name = "Colorpicker",
+        Default = Color3.fromRGB(255, 0, 0),
+        Callback = function(Value)
+            print(Value)
+        end
+    }
+)
+
+local Tab5 =
+    Window:MakeTab(
+    {
+        Name = "about",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+
+Tab5:AddParagraph(
+    "About the creator",
+    "Hi, I'm susmic123_real. These scripts came from *** and many more browsers. I use Synapse X (download here: https://tinyurl.com/quandsaledinglemanhere)"
+)
+local Tab3 =
+    Window:MakeTab(
+    {
+        Name = "Darkhub Adminstrator",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+Tab3:AddButton(
+    {
+        Name = "DarkHub Adminstrador",
+        Callback = function()
+           loadstring(game:HttpGet("https://pastebin.com/raw/86bJTfdi", true))()
+        end
+    }
+)
+local Tab6 =
+    Window:MakeTab(
+    {
+        Name = "news",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+Tab6:AddParagraph(
+    "NEWS",
+    "OMG,A 4D SIMULATION HAS BEEN DISCOVERED AND THEY CAN WALK THROUGH OUR 3D WALLS AND DO MUCH MORE!!! check out the image proof https://tinyurl.com/4d-square "
+)
+Tab6:AddParagraph(
+    "NEWS",
+    "BREAKING NEWS, ailens are here in 4d form!! https://tinyurl.com/4d-explained watch vid<<<<<<<<<<<<<<<<<<"
+)
+Tab6:AddParagraph(
+    "NEWS",
+    "Hi,susmic123_real here you can get free robux!! 1: don't use google. use bing number 2 get microsoft account number 3 get email start 1: use bing a lot. 2: go to this website https://tinyurl.com/robux-microsoft and if you have enough points click redeem and put your email and wait until you get a email from microsoft and you wull get a robux code via email. have fun "
+)
+local Tab7 =
+    Window:MakeTab(
+    {
+        Name = "fun",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    }
+)
+Tab7:AddButton(
+    {
+        Name = "hacker matrix!!",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/mQM2GPVY"))()
+        end
+    }
+)
+Tab7:AddButton(
+    {
+        Name = "control player (any game)",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/control%20player"))()
+        end
+    }
+)
+Tab7:AddButton(
+    {
+        Name = "rtx autumn",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/RTX%20AUTTUM.LUA"))()
+        end
+    }
+)
+Tab7:AddButton(
+    {
+        Name = "rtx summer",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/RTX%20SUMMER.LUA"))()
+        end
+    }
+)
+local Tab8 = Window:MakeTab({
+	Name = "item gui",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab8:AddButton({
+	Name = "spawn the gui",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/items"))()
+  	end    
+})
