@@ -335,6 +335,18 @@ local Tab8 = Window:MakeTab({
 Tab8:AddButton({
 	Name = "spawn the gui",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/items"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/items1"))()
+  	end    
+})
+local Tab9 = Window:MakeTab({
+	Name = "DarkHub settings",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab9:AddButton({
+	Name = "reboot",
+	Callback = function()
+        OrionLib:Destroy()
+        loadstring(Game:HttpGet('https://raw.githubusercontent.com/123456789qwerty0/Michael-scripts/main/Darkhub'))()
   	end    
 })
